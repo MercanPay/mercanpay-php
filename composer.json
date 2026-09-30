@@ -1,0 +1,21 @@
+{
+  "name": "mercanpay/mercanpay-php",
+  "description": "Official PHP client for the MercanPay crypto payment gateway (TRX & USDT-TRC20)",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["mercanpay", "crypto", "payment", "gateway", "usdt", "trc20", "tron", "trx"],
+  "homepage": "https://mercanpay.com",
+  "authors": [{ "name": "MercanPay", "email": "support@mercanpay.com", "homepage": "https://mercanpay.com" }],
+  "support": {
+    "email": "support@mercanpay.com",
+    "docs": "https://mercanpay.com/documentation"
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "MercanPay\\": "src/" }
+  }
+}
